@@ -1,0 +1,92 @@
+Objective: Learn the basics of CSS by applying styles to an HTML structure.
+
+Guidelines:
+Use the provided HTML structure and add the CSS.
+Style the webpage according to the following requirements:
+Change background colors.
+Adjust font sizes and colours.
+Add spacing and borders.
+Centre content.
+HTML Structure of Code:
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Delicious Apple Pie Recipe</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fffbea;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        #hero {
+            background-image: url('https://i.imgur.com/oXrLmSl.jpg&#39;);
+            /* Add your image path */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Grandma's Secret Apple Pie</h1>
+    </header>
+     <section id="hero">
+            <div class="hero-content">
+                <h2>Welcome to Our Business</h2>
+                <p>Your one-stop solution for all your needs.</p>
+                <a href="#contact" class="hero-button">Get in Touch</a>
+            </div>
+        </section>
+    <main>
+       
+        <section class="introduction">
+            <p>This apple pie recipe has been in my family for generations and never fails to delight.</p>
+        </section>
+        <section class="ingredients">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>1/2 cup sugar</li>
+                <li>2 tsp ground cinnamon</li>
+                <li>6 medium-sized apples, peeled and sliced</li>
+                <!-- More ingredients -->
+            </ul>
+        </section>
+        <section class="instructions">
+            <h2>Instructions</h2>
+            <ol>
+                <li>Preheat oven to 375°F (190°C).</li>
+                <li>In a bowl, mix the sugar and cinnamon.</li>
+                <li>Toss the apples in the sugar-cinnamon mixture.</li>
+                <!-- More instructions -->
+            </ol>
+        </section>
+        <section class="portfolio">
+            <h2>Portfolio</h2>
+            <img src="https://cdn.create.vista.com/api/media/small/82302678/stock-photo-fairy-tree-landscape&quot; alt="portfolio-img">
+            <img src="https://cdn.create.vista.com/api/media/small/82302678/stock-photo-fairy-tree-landscape&quot; alt="portfolio-img">
+            <img src="https://cdn.create.vista.com/api/media/small/82302678/stock-photo-fairy-tree-landscape&quot; alt="portfolio-img">
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 by [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+
+LabTask.png
+Image
+Class comments
+
